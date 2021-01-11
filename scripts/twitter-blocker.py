@@ -99,7 +99,7 @@ def block_followers(investigated_user, oldcursor=-1, myself=YOURUSERID):
 
 
 testfile = open('testfile.txt', 'r')
-myself = api.GetUser(screen_name='alex_wykoff')
+myself = api.GetUser(screen_name='YOURUSERNAME')
 print(myself.id)
 listed_user = ''
 try:
